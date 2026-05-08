@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2>Prompt Box</h2>
+<button onclick="showPrompt()">Click Me</button>
+<script>
+function showPrompt() {
+    let userInput = prompt("Please enter your name:");
+    if (userInput) {
+        alert("Hello, " + userInput + "!");
+    } else {
+        alert("You didn't enter anything.");
+    }
+}
+</script>
+
+</body>
+</html>
